@@ -56,3 +56,11 @@ let num1 = num2 = num3 = 2 + 3
 // console.log(num2);
 
 // increament operator
+let num = 100
+console.log(++num);
+console.log(num)
+console.log(--num)
+console.log(num--)
+console.log(num)
+console.log(num++)
+console.log(num)
