@@ -43,4 +43,14 @@ console.log(...arr, ...newarrr)
 console.log("flat")
 console.log(arr.flat())
 
+let myarr = [1, 2, 3, ["sumit"], 4, 5, ["shyam"]]
+console.log(myarr.flat())
 
+// is array 
+console.log(Array.isArray("sumit"))
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
+console.log(Array.of(score1, score2, score3))
