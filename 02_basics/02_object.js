@@ -64,5 +64,6 @@ mynewobj.greetings = function() {
 }
 
     console.log(mynewobj.greetings())
-
+ console.log("jai shree ram")
+ console.log("jai shree ram")
 
