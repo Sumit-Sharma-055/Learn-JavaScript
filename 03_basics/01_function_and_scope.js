@@ -42,13 +42,32 @@ name()
 // myfun(mynewarray)
 // // myfun()
 
-let newArray = [100, 200, 300]; //Add commentMore actions
+// let newArray = [100, 200, 300]; //Add commentMore actions
 
-function secondValueOfArray(array) {
-    return array[2];
+// function secondValueOfArray(array) {
+//     return array[2];
+// }
+
+// console.log(secondValueOfArray(newArray));
+
+//scope
+
+// let a = 10
+// const b = 'sumit'
+// var c = true
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+if(true) {
+    let a = 10
+const b = 'sumit'
+var c = true
 }
 
-console.log(secondValueOfArray(newArray));
+// console.log(a);   scope tak hie
+// console.log(b);   scope tak hei
+console.log(c);      scope se bhahar bhi hei
 
 
 
