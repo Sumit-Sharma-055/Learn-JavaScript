@@ -67,7 +67,23 @@ var c = true
 
 // console.log(a);   scope tak hie
 // console.log(b);   scope tak hei
-console.log(c);      scope se bhahar bhi hei
+// console.log(c);      scope se bhahar bhi hei
+
+// nested function
+
+// function sum (a,b) {
+//     function mul(a,b) {
+//         console.log(a*b);
+        
+//         return 
+//     } mul(a,b)
+//     return a+b
+   
+// }
+
+// console.log(sum(5,2)
+// );
+
 
 
 
